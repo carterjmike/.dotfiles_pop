@@ -1,0 +1,39 @@
+{
+    "workbench.colorTheme": "Populus Dark",
+    "workbench.colorCustomizations": {
+        "[Populus Dark]": {
+            "statusBar.background": "#252526",
+            "statusBar.noFolderBackground": "#252526",
+            "statusBar.debuggingBackground": "#263238"
+        },
+    },
+    "workbench.sideBar.location": "right",
+    "quarto.mathjax.theme": "dark",
+    "editor.fontSize": 13,
+    "editor.wordWrap": "on",
+    "editor.rulers": [80],
+    "editor.fontFamily": "'JetBrains Mono'",
+    "window.zoomLevel": 1,
+    "window.restoreWindows": "none",
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "vscode-neovim.neovimInitVimPaths.linux": "/home/mjc/.config/nvim/init.lua",
+    "latex-workshop.view.pdf.viewer": "external",
+    "latex-workshop.view.pdf.external.viewer.command": "evince",
+    "latex-workshop.view.pdf.external.viewer.args": [
+        "%PDF%"
+    ],
+    "latex-workshop.view.pdf.external.synctex.command": "evince_forward_search",
+    "latex-workshop.view.pdf.external.synctex.args": [
+        "%PDF%",
+        "%LINE%",
+        "%TEX%"
+    ],
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "julia.symbolCacheDownload": true,
+    "julia.enableTelemetry": false,
+    "[python]": {
+        "editor.formatOnType": true
+    }
+}

@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Nordico", // Populus Dark
+    "workbench.colorTheme": "Kanagawa Dragon", // Populus Dark
     "workbench.colorCustomizations": {
         "[Populus Dark]": {
             "statusBar.background": "#252526",
@@ -12,8 +12,8 @@
     "editor.fontSize": 13,
     "editor.wordWrap": "on",
     "editor.rulers": [80],
-    "editor.fontFamily": "'Mononoki Nerd Font Mono'",
-    "window.zoomLevel": 1,
+    "editor.fontFamily": "'JuliaMono'",
+    "window.zoomLevel": 1.5,
     "window.restoreWindows": "none",
     "latex-workshop.view.pdf.viewer": "external",
     "latex-workshop.view.pdf.external.viewer.command": "evince",
@@ -26,5 +26,7 @@
         "%LINE%",
         "%TEX%"
     ],
+    "workbench.editor.enablePreview": false,
+    "quarto.render.previewType": "none",
 }
 

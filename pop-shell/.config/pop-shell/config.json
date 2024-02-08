@@ -1,0 +1,25 @@
+{
+  "float": [
+    {
+      "class": "pop-shell-example",
+      "title": "pop-shell-example"
+    },
+    {
+      "class": "Gnome-tweaks"
+    },
+    {
+      "class": "Gnome-disks"
+    },
+    {
+      "class": "extension-manager"
+    },
+    {
+      "class": "org.gnome.Shell.Extensions"
+    },
+    {
+      "class": "Gnome-control-center"
+    }
+  ],
+  "skiptaskbarhidden": [],
+  "log_on_focus": false
+}

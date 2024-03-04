@@ -12,25 +12,27 @@ libupdate <- function() {
 }
 
 ##| core libraries used in lab projects within {renv}
-initdir <- function() {
+renvinit <- function() {
   renv::init(restart = FALSE)
   renv::install(
     c(
+      # CRAN
       "tidyverse",
       "afex",
-      "crsh/papaja@devel",
+      "conflicted",
       "easystats",
       "emmeans",
-      "googledrive",
       "here",
+      "Hmisc",
+      "marginaleffects",
       "patchwork",
-      "preregr",
       "ggResidpanel",
       "robust",
       "Routliers",
       "styler",
-      "trackdown",
-      "WRS2"
+      "WRS2",
+      # Github
+      "GRousselet/rogme"
     )
   )
   renv::snapshot()

@@ -18,6 +18,9 @@
     },
     {
       "class": "Gnome-control-center"
+    },
+    {
+      "class": "Gpick"
     }
   ],
   "skiptaskbarhidden": [],

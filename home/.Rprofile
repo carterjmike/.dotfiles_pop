@@ -11,8 +11,22 @@ libupdate <- function() {
     upgrade = TRUE)
 }
 
-##| core libraries used in lab projects within {renv}
-renvinit <- function() {
+##| core libraries (min and full options) used in lab projects
+##| within {renv}
+renv_min <- function() {
+  renv::init(restart = FALSE)
+  renv::install(
+    c(
+      # CRAN
+      "tidyverse",
+      "conflicted",
+      "here"
+    )
+  )
+  renv::snapshot()
+}
+
+renv_full <- function() {
   renv::init(restart = FALSE)
   renv::install(
     c(
